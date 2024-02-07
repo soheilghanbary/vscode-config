@@ -1,6 +1,8 @@
 # Cool VSCode Config for React Developers
 Welcome to the ultimate VSCode setup for the coolest React developers out there! 🚀 Dive into a sleek and powerful coding experience with this carefully crafted configuration.
 
+![Demo Config]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/soheilghanbary/vscode-config/blob/main/demo.png?raw=true))
+
 ## Features
 Cool Themes
 Seamless syntax highlighting
