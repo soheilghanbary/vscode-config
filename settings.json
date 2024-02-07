@@ -1,0 +1,134 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 15.2,
+  "editor.lineHeight": 1.7,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontSize": 14,
+  "editor.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "JetBrains Mono Medium",
+  "window.zoomLevel": 0.6,
+  "workbench.activityBar.location": "top",
+  "terminal.integrated.gpuAcceleration": "on",
+  "editor.renderWhitespace": "none",
+  "cloudcode.autoDependencies": "on",
+  "explorer.autoReveal": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "vs-code-prettier-eslint.prettierLast": false,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "chatgpt.lang": "en",
+  "editor.tabSize": 2,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript", // if you are using typescript
+    "typescriptreact": "javascript" // if you are using typescript with react
+  },
+  "editor.quickSuggestions": {
+    "strings": true // forces VS Code to trigger completions when editing "string" content
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)", // tw`...`
+    "tw\\.[^`]+`([^`]*)`", // tw.xxx<xxx>`...`
+    "tw\\(.*?\\).*?`([^`]*)" // tw(Component)<xxx>`...`
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorStyle": "block",
+  "files.autoSave": "onFocusChange",
+  "codesnap.backgroundColor": "#6366f1",
+  "codesnap.transparentBackground": true,
+  "codesnap.showWindowTitle": true,
+  "terminal.integrated.enableImages": true,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "git.autofetch": true,
+  "cloudcode.duetAI.project": "modern-apps-409618",
+  // Remove bottom status bar
+  "workbench.statusBar.visible": false,
+  // Remove position indicator in the editor's scrollbar
+  "editor.hideCursorInOverviewRuler": true,
+  // Remove the line number gutter
+  "editor.glyphMargin": false,
+  // Remove code-block folding icon
+  "editor.folding": false,
+  // Move tabs to be in a single line with window controls
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 10,
+      "y": 10
+    }
+  },
+  "apc.header": {
+    "height": 36
+  },
+  // Remove unnecessary controls from primary bar and tabs list
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none", // Remove primary side bar title
+    ".title-actions": "display: none", // Remove primary side bar action icons
+    ".editor-actions": "display: none", // Remove editor action icons
+    ".nosidebar .inline-tabs-placeholder": "width: 75px" // Align tabs to not overlap window controls when primary bar is hidden
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.next": true,
+    "**/.vercel": true,
+    "**/node_modules": true,
+    "**/pnpm-lock.yaml": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/public": true
+  },
+  "workbench.colorTheme": "Mayukai Dark"
+}
