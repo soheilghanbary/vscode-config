@@ -15,4 +15,4 @@ Enjoy a curated collection of extensions tailored for the most epic React develo
 ## Installation
 Enhance your Visual Studio Code experience effortlessly – choose between copying the provided Settings.json directly into your VSCode settings or importing the soli.code-profile into your vscode profiles. Elevate your coding setup with ease!
 
-Built by [❤️ SOHEIL](https://choosealicense.com/licenses/mit/)
+Built by [❤️ SOHEIL](https://soheilghanbary.ir)
